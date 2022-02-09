@@ -59,4 +59,28 @@
     text-align: center;
   }
 
+  .reuse{
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    position: relative;
+  }
+
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  .clearfix{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .left{
+    float: left;
+  }
 
