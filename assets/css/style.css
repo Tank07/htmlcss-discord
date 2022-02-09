@@ -10,11 +10,18 @@
 
   header{
     background-color: aqua;
-    height: 70px;
+    height: 60px;
+  }
+
+  .menu{
+    text-align: center;
   }
 
   nav{
     display: inline-block;
+    margin: 0 100px;
+    line-height: 60px;
+    vertical-align: middle;
   }
   
   nav ul li {
@@ -25,4 +32,10 @@
   nav ul li a{
     text-decoration: none;
     padding: 10px;
+  }
+
+  #accesso{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
   }
