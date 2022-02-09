@@ -34,8 +34,31 @@
     padding: 10px;
   }
 
-  #accesso{
+  .accesso{
     background-color: aliceblue;
     padding: 5px;
     border-radius: 10px;
   }
+
+  .first{
+    height: 50vh;
+    background-image: url("../images/jumbo.png");
+    background-size: cover;
+    background-position: center;  
+    position: relative;  
+  }
+
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    width: 100%;
+  }
+
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
