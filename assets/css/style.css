@@ -7,3 +7,22 @@
   html {
     scroll-behavior: smooth;
   }
+
+  header{
+    background-color: aqua;
+    height: 70px;
+  }
+
+  nav{
+    display: inline-block;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+  }
