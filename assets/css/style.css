@@ -37,8 +37,8 @@ n*{
     padding: 10px;
   }
 
-  .accesso{
-    background-color: aliceblue;
+  .button{
+    background-color: rgb(43, 125, 197);
     padding: 5px;
     border-radius: 10px;
   }
@@ -90,4 +90,9 @@ n*{
 
   .grey{
     background-color: rgb(216, 212, 212);
+  }
+
+  .big-s{
+    text-align: center;
+    height: 100vh;
   }
