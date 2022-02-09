@@ -1,4 +1,4 @@
-*{
+n*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -59,22 +59,18 @@
     text-align: center;
   }
 
-  .reuse{
-    height: 50vh;
+  .spacing{
     width: 80%;
     margin: auto;
+  }
+
+  .reuse{
+    height: 500px;
     position: relative;
+    display: inline-block;
   }
 
-  .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-  }
-
-  .clearfix{
+  .clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -84,3 +80,14 @@
     float: left;
   }
 
+  .right{
+    float: right;
+  }
+
+  .text{
+    padding: 40px;
+  }
+
+  .grey{
+    background-color: rgb(216, 212, 212);
+  }
