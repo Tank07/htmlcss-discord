@@ -17,10 +17,9 @@ n*{
     text-align: center;
   }
 
-  /* #logo{
-    line-height: 60px;
+  #logo{
     vertical-align: middle;
-  } */
+  }
 
   nav{
     display: inline-block;
@@ -40,7 +39,7 @@ n*{
   .button{
     background-color: rgb(43, 125, 197);
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 40px;
   }
 
   .first{
@@ -94,5 +93,11 @@ n*{
 
   .big-s{
     text-align: center;
-    height: 100vh;
+    height: 1000px;
+  }
+
+  footer{
+    height: 700px;
+    width: 100%;
+    background-color: blueviolet;
   }
