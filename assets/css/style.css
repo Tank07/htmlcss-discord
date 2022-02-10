@@ -1,4 +1,4 @@
-n*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,6 +19,7 @@ n*{
 
   #logo{
     vertical-align: middle;
+    line-height: 60px;
   }
 
   nav{
@@ -49,7 +50,7 @@ n*{
     background-position: center;  
     position: relative;  
   }
-
+  
   .center{
     position: absolute;
     top: 50%;
@@ -64,8 +65,6 @@ n*{
   }
 
   .reuse{
-    height: 500px;
-    position: relative;
     display: inline-block;
   }
 
@@ -93,11 +92,13 @@ n*{
 
   .big-s{
     text-align: center;
-    height: 1000px;
   }
 
   footer{
-    height: 700px;
     width: 100%;
     background-color: blueviolet;
+  }
+
+  .small-c ul li a{
+    text-decoration: none;
   }
