@@ -11,6 +11,7 @@
   header{
     background-color: aqua;
     height: 60px;
+    line-height: 60px;
   }
 
   .menu{
@@ -19,7 +20,6 @@
 
   #logo{
     vertical-align: middle;
-    line-height: 60px;
   }
 
   nav{
@@ -82,6 +82,11 @@
     float: right;
   }
 
+  h2,
+  h3{
+    margin-bottom: 15px;
+  }
+
   .text{
     padding: 40px;
   }
@@ -95,10 +100,33 @@
   }
 
   footer{
-    width: 100%;
     background-color: blueviolet;
+  }
+
+  .big-c{
+    width: 25%;
+  }
+
+  .small-c{
+    width: 18%;
+  }
+
+  ul {
+    list-style-type: none;
   }
 
   .small-c ul li a{
     text-decoration: none;
+  }
+
+  .small-c ul li{
+    margin-bottom: 8px;
+  }
+
+  hr{
+    color: blue;
+  }
+
+  .footer-measures{
+    padding: 40px 0;
   }
