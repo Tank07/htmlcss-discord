@@ -95,10 +95,6 @@
     transform: translateY(4px);
   }
 
-  .reuse{
-    display: inline-block;
-  }
-
   .clearfix::after{
     content: "";
     display: table;
